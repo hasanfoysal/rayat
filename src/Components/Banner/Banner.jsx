@@ -1,3 +1,8 @@
+import logo1 from '../../assets/c.png'
+import logo2 from '../../assets/download.webp'
+import logo3 from '../../assets/download (1).webp'
+import logo4 from '../../assets/download (2).webp'
+
 
 
 import img1 from '../../assets/LS20240905143724.png'
@@ -27,10 +32,10 @@ const Banner = () => {
       <a href="https://www.instagram.com/_sodium_._chloride_/" target="blank"><img className='w-7 h-7' align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.facebook.com/arefin.ahmed.3956/" height="30" width="40" /></a>
       </div></BoxReveal> 
       <div className='text-white lg:mt-6 mt-3 md:mt-4 flex space-x-4'>
-        <a className='shadow-md shadow-green-400' href="https://codeforces.com/profile/hossaincse?fbclid=IwY2xjawFHuSZleHRuA2FlbQIxMAABHaNvei80ak-TmF9zuwzquGnKpSzQS6_4QLUi1ZToP818IZ2ZLI6KDWBP0A_aem_pYHvI3Io-fzRrb5q92WpZg">codeforces</a>
-        <a className='shadow-md shadow-green-400' href="https://judge.beecrowd.com/en/profile/868248?fbclid=IwY2xjawFHuUtleHRuA2FlbQIxMAABHX1zqS9Nox-FyZ90dPC3E8vF-FSuBQ-hzZ4h7dE9JTh_9HlioKQRo0tWkQ_aem_P4QX6vZHcM0lOwIYkASdYQ">beecrowd</a>
-        <a className='shadow-md shadow-green-400' href="https://vjudge.net/user/hossaincse_2002?fbclid=IwY2xjawFHuWlleHRuA2FlbQIxMAABHXSO02Ul-yU7dF3YWlPRW45_eRTNtEH_D6ulVCTWaOj1J5BxYmDVWg4mYQ_aem_gxbHUdswJMO6p2uppfDlqA#google_vignette">vjudge</a>
-        <a className='shadow-md shadow-green-400' href="https://www.codechef.com/users/hossaincse?fbclid=IwY2xjawFHuYhleHRuA2FlbQIxMAABHYBhX-Gnq7jowAvu9oEN6mppvCDu-rGvfk-MO8tl8RA8NG7W758LxtGGIA_aem_TBTPgLh3jxD_FxByl7EArQ">codechef</a>
+        <a  href="https://codeforces.com/profile/hossaincse?fbclid=IwY2xjawFHuSZleHRuA2FlbQIxMAABHaNvei80ak-TmF9zuwzquGnKpSzQS6_4QLUi1ZToP818IZ2ZLI6KDWBP0A_aem_pYHvI3Io-fzRrb5q92WpZg"><img className='w-7 h-7' src={logo1} alt="" />Codeforces</a>
+        <a  href="https://judge.beecrowd.com/en/profile/868248?fbclid=IwY2xjawFHuUtleHRuA2FlbQIxMAABHX1zqS9Nox-FyZ90dPC3E8vF-FSuBQ-hzZ4h7dE9JTh_9HlioKQRo0tWkQ_aem_P4QX6vZHcM0lOwIYkASdYQ"><img className='w-7 h-7' src={logo2} alt="" />Beecrowd</a>
+        <a  href="https://vjudge.net/user/hossaincse_2002?fbclid=IwY2xjawFHuWlleHRuA2FlbQIxMAABHXSO02Ul-yU7dF3YWlPRW45_eRTNtEH_D6ulVCTWaOj1J5BxYmDVWg4mYQ_aem_gxbHUdswJMO6p2uppfDlqA#google_vignette"><img className='w-7 h-7' src={logo3} alt="" />Virtual Judge</a>
+        <a href="https://www.codechef.com/users/hossaincse?fbclid=IwY2xjawFHuYhleHRuA2FlbQIxMAABHYBhX-Gnq7jowAvu9oEN6mppvCDu-rGvfk-MO8tl8RA8NG7W758LxtGGIA_aem_TBTPgLh3jxD_FxByl7EArQ"><img className='w-7 h-7' src={logo4} alt="" />CodeChef</a>
       </div>
     </div>
   </div>
