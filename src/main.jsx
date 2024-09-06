@@ -11,6 +11,7 @@ import About from './Components/About/About';
 import Skills from './Components/Skills/skills';
 import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
+import Design from './Components/Design/Design';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -42,6 +43,9 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <div className='bg-black'>
+   <div className='w-full h-screen absolute top-0 left-0 '>
+    <Design></Design>
+ </div>,
   <StrictMode>
     <RouterProvider router={router} />
   </StrictMode>,

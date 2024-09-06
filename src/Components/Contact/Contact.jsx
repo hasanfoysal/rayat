@@ -3,6 +3,7 @@ import { useRef } from "react";
 import emailjs from '@emailjs/browser';
 import { IoIosSend } from "react-icons/io";
 import Swal from "sweetalert2";
+import BoxReveal from "../BoxReveal/BoxReveal";
 
 
 const Contact = () => {
@@ -44,14 +45,14 @@ const Contact = () => {
             <div className="card bg-base-100 w-64 md:w-80 mx-auto my-10 lg:w-[500px] border border-green-400  shadow-green-400 shadow-sm">
   
   <div className="card-body bg-black text-white">
-<li className="lg:text-xl"><span className="text-slate-300 lg:text-lg ">phone:</span> +8801328363809</li>
-<li className="lg:text-xl sm:text-lg "><span className="text-slate-300 lg:text-lg">Email:</span> rayathaque@gmail.com</li>
-<li className="lg:text-xl"><span className="text-slate-300 lg:text-lg">Location:</span>House # 03 (2nd Floor), Ward # 08,  Block -  B, Pollibiddut, Dhaka</li>
-<div className='lg:mt-6 mt-3 md:mt-4 flex space-x-4'>
+  <BoxReveal boxColor={"#4ade80"} duration={0.5}><li className="lg:text-xl"><span className="text-slate-300 lg:text-lg ">phone:</span> +8801328363809</li></BoxReveal>
+  <BoxReveal boxColor={"#4ade80"} duration={0.5}><li className="lg:text-xl sm:text-lg "><span className="text-slate-300 lg:text-lg">Email:</span> rayathaque@gmail.com</li></BoxReveal>
+  <BoxReveal boxColor={"#4ade80"} duration={0.5}><li className="lg:text-xl"><span className="text-slate-300 lg:text-lg">Location:</span>House # 03 (2nd Floor), Ward # 08,  Block -  B, Pollibiddut, Dhaka</li></BoxReveal>
+  <BoxReveal boxColor={"#4ade80"} duration={0.5}><div className='lg:mt-6 mt-3 md:mt-4 flex space-x-4'>
       <a href="https://www.facebook.com/king.rayat.10/" target="blank"><img className='w-7 h-7' align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/profile.php?id=100009256108068&mibextid=ZbWKwL" height="30" width="40" /></a>
       <a href="https://github.com/hossaincse" target="blank"><img className='w-7 h-7' align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="https://github.com/hasanfoysal" height="30" width="40" /></a>
       <a href="https://www.instagram.com/_sodium_._chloride_/" target="blank"><img className='w-7 h-7' align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.facebook.com/arefin.ahmed.3956/" height="30" width="40" /></a>
-      </div>
+      </div></BoxReveal>
 
 
   </div>
@@ -59,7 +60,7 @@ const Contact = () => {
 <div  className="card bg-base-100 w-64 md:w-80 mx-auto my-10 lg:w-[500px] border border-green-400  shadow-green-400 shadow-sm">
   <div className="card-body bg-black text-white">
   <form ref={form} onSubmit={sendEmail}>
-<label className="input input-bordered flex items-center w-48 lg:w-96 text-black gap-2">
+  <BoxReveal boxColor={"#4ade80"} duration={0.5}><label className="input input-bordered flex items-center w-48 lg:w-96 text-black gap-2">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 16 16"
@@ -69,8 +70,8 @@ const Contact = () => {
       d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM12.735 14c.618 0 1.093-.561.872-1.139a6.002 6.002 0 0 0-11.215 0c-.22.578.254 1.139.872 1.139h9.47Z" />
   </svg>
   <input type="text" name="to_name" className="grow" placeholder="Username" />
-</label>
-<label className="input input-bordered flex w-48 lg:w-96 items-center mt-2 text-black gap-2">
+</label></BoxReveal>
+<BoxReveal boxColor={"#4ade80"} duration={0.5}><label className="input input-bordered flex w-48 lg:w-96 items-center mt-2 text-black gap-2">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 16 16"
@@ -82,15 +83,15 @@ const Contact = () => {
       d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
   </svg>
   <input type="text" name="from_email" className="grow" placeholder="Email" />
-</label>
+</label></BoxReveal>
 
 
-<label className="input input-bordered flex w-48 lg:w-96 items-center text-black mt-2 gap-2">
+<BoxReveal boxColor={"#4ade80"} duration={0.5}><label className="input input-bordered flex w-48 lg:w-96 items-center text-black mt-2 gap-2">
 <IoIosSend />
   <input type="text" name="message" className="grow" placeholder="Enter your message" />
-</label>
+</label></BoxReveal>
 
-<input className="btn btn-outline mt-4 border-green-400 text-green-400 shadow-md  shadow-green-400  hover:bg-green-400 hover:text-black" type="submit" value="Send" /> 
+<BoxReveal boxColor={"#4ade80"} duration={0.5}><input className="btn btn-outline mt-4 border-green-400 text-green-400 shadow-md  shadow-green-400  hover:bg-green-400 hover:text-black" type="submit" value="Send" /> </BoxReveal>
       {/* <label>Name</label>
       <input type="text" name="to_name" />
       <label>Email</label>
