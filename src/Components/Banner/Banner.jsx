@@ -22,8 +22,7 @@ const Banner = () => {
    <BoxReveal boxColor={"#4ade80"} duration={0.5}>Hello, I'm Hossain Ibn Masudul Haque, <br /> a passionate and dedicated Computer Science and Engineering professional with a strong foundation in software development, web and mobile application development, and UI/UX design.</BoxReveal>
 
 
-   <BoxReveal boxColor={"#4ade80"} duration={0.5}><h1 className='mt-2'>In this portfolio, you will find a curated selection of my work that demonstrates my technical expertise, creative problem-solving abilities, and my dedication to continuous learning and improvement. Whether it's a complex software solution, a sleek mobile app, or an intuitive web interface, I strive to create impactful and meaningful digital experiences.</h1></BoxReveal>
-
+   
    <BoxReveal boxColor={"#4ade80"} duration={0.5}><h3 className='mt-2'>Feel free to explore my projects and get in touch if you would like to discuss potential collaborations, job opportunities, or simply to connect. Thank you for visiting my portfolio, and I hope you find my work inspiring and insightful.</h3></BoxReveal>
       </p>
       <BoxReveal boxColor={"#4ade80"} duration={0.5}><div className='lg:mt-6 mt-3 md:mt-4 flex space-x-4'>
