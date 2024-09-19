@@ -15,7 +15,7 @@ const  Skills = () => {
   </figure> */}
   <div className="card-body bg-black text-white">
   <BoxReveal boxColor={"#4ade80"} duration={0.5}> <h2 className="card-title text-green-400">Technical Skills:</h2></BoxReveal>
-  <BoxReveal boxColor={"#4ade80"} duration={0.5}> <li>Programming Languages:<span className="text-slate-300 text-md"> Python, JavaScript, Java, C++, C, Dart, Assembly</span></li></BoxReveal>
+  <BoxReveal boxColor={"#4ade80"} duration={0.5}> <li>Programming Languages:<span className="text-slate-300 text-md">  Python, JavaScript, Java, C++, C, Dart, Assembly</span></li></BoxReveal>
   <BoxReveal boxColor={"#4ade80"} duration={0.5}> <li>Web Development:<span className="text-slate-300 text-md"> HTML, CSS, JavaScript frameworks (React, Angular, Vue.js), RESTful APIs</span></li></BoxReveal>
   <BoxReveal boxColor={"#4ade80"} duration={0.5}><li>Database Management:<span className="text-slate-300 text-md"> SQL (MySQL, PostgreSQL), NoSQL (MongoDB, Firebase)</span></li></BoxReveal>
   <BoxReveal boxColor={"#4ade80"} duration={0.5}><li>Mobile Development:<span className="text-slate-300 text-md"> iOS (Swift), Android (Java, Kotlin), cross-platform (React Native, Flutter)</span></li></BoxReveal>
